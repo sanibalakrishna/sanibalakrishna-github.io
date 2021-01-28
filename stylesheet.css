@@ -1,0 +1,269 @@
+* {
+  box-sizing: border-box;
+  margin:0px;
+  padding:0px;
+}
+
+body {
+  margin: 0;
+  font-family: "Times nRoman";
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.header-left{
+  padding:10px 10px;
+  color:red;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  height:800px;
+  
+  background-color:black ;
+  background-size: cover;
+  color: white;
+  text-align: left;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 60px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+.top-wrapper h2 {
+  opacity: 0.7;
+  font-size: 90px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  color:#EE8434;
+}
+
+
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+  font-size:45px;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.top-wrapper img {
+  height:400px;
+  width: 400px;
+  float:right;
+  padding-right: 30px ;
+}
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.linkedin {
+  background-color: #239b76;
+}
+
+.facebook {
+  background-color: #3b5998;
+ 
+}
+
+.Instagram{
+  background-color: #55acee;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Add CSS for menu-icon */
+.menu-icon{
+  
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+ display: none;
+  
+
+}
+
+
+
+
+.About h1,.Skills h1{
+ font-size: 60px;
+ padding-top: 150px;
+}
+.About p{
+  font-size: 30px;
+  padding-top:40px;
+}
+.About{
+  height:800px;
+  background-color:#04A777;
+  max-width: 1170px;
+  width:100%;
+}
+.Skills{
+  padding-top:50px;
+  
+  
+}
+.Projects h2{
+  padding-top:100px;
+  text-align: center;
+  font-size:60px;
+
+}
+.Skills h1{
+  text-align: center;
+
+}
+.Skills  h3,.Skills h2{
+  font-size:45px;
+  color:green;
+}
+.Skills li{
+  color:white;
+  font-size: 30px;
+}
+
+
+
+
+.heading h2 {
+  font-weight: normal;
+}
+
+
+
+
+
+
+
+
+.heading h3 {
+  font-weight: normal;
+}
+.Projects{
+  text-align: left;
+}
+.Skills-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #c2eb0e;
+  box-shadow: 0 7px #b0c403;
+  
+  
+  
+}
+.About-wrapper{
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #04A777;
+  text-align: center;
+  box-shadow: 0 7px #02694a;
+
+
+}
+
+
+.Project-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+  
+}
+
+.Projects {
+  padding: 15px 40px;
+  background-color: #ee790c;
+  cursor: pointer;
+  font-size:40px;
+  box-shadow: 0 7px #915802;
+}
+
+.Projects:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer h1 {
+  font-size:30px;
+  color:red;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
